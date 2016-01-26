@@ -9,7 +9,7 @@ The object is not available until after the `deviceready` event.
 			console.log(cordova.plugins.uid.IMEI); (choose your function)
 		}
 
-### Hot to use from Command line
+### How to use from Command line
 		cordova plugin add org.hygieiasoft.cordova.uid
 
 ### Plugin Properties in deviceready event
