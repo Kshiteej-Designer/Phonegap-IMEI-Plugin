@@ -1,5 +1,5 @@
 # org.hygieiasoft.cordova.uid
-hERE IS Cordova plugin to get unique identifiers: UUID, IMEI, IMSI, ICCID and MAC.
+Here is Cordova plugin to get unique identifiers: UUID, IMEI, IMSI, ICCID and MAC.
 
 This plugin defines a `cordova.plugins.uid` object.
 The object is not available until after the `deviceready` event.
