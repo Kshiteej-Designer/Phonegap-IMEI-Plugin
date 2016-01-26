@@ -9,10 +9,10 @@ The object is not available until after the `deviceready` event.
 			console.log(cordova.plugins.uid.IMEI); (choose your function)
 		}
 
-### Installation
+### Hot to use from Command line
 		cordova plugin add org.hygieiasoft.cordova.uid
 
-### Properties
+### Plugin Properties in deviceready event
 - uid.UUID - var string = cordova.plugins.uid.UUID;
 - uid.IMEI - var string = cordova.plugins.uid.IMEI;
 - uid.IMSI - var string = cordova.plugins.uid.IMSI;
