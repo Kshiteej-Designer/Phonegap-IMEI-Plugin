@@ -6,7 +6,7 @@ The object is not available until after the `deviceready` event.
 
 		document.addEventListener('deviceready', onDeviceReady, false);
 		function onDeviceReady() {
-			console.log(cordova.plugins.uid.IMEI);
+			console.log(cordova.plugins.uid.IMEI); (you can choose your function)
 		}
 
 ## Installation
