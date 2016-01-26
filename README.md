@@ -6,13 +6,13 @@ The object is not available until after the `deviceready` event.
 
 		document.addEventListener('deviceready', onDeviceReady, false);
 		function onDeviceReady() {
-			console.log(cordova.plugins.uid.IMEI); (you can choose your function)
+			console.log(cordova.plugins.uid.IMEI); (choose your function)
 		}
 
-## Installation
+### Installation
 		cordova plugin add org.hygieiasoft.cordova.uid
 
-## Properties
+### Properties
 - uid.UUID - var string = cordova.plugins.uid.UUID;
 - uid.IMEI - var string = cordova.plugins.uid.IMEI;
 - uid.IMSI - var string = cordova.plugins.uid.IMSI;
